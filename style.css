@@ -114,7 +114,7 @@ body{
     border-radius: 50%;
     border-color: white;
     border-style: solid;
-    border-width: 8pt;
+    border-width: 0.8rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -132,10 +132,10 @@ body{
 }
 
 .intro p{
-    padding-top: 12pt;
+    padding-top: 1rem;
     text-align: center;
     color: #30275B;
-    font-size: 14pt;
+    font-size: 1.25rem;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 28px;
@@ -174,11 +174,12 @@ body{
 
 footer{
     background-color: #c3bedd;
-    width: 100vw;
+    width: 100%;
 }
 .footer-basic{
+    width: 100%;
     margin: auto;
-    font-size: 12pt;
+    font-size: 1.25rem;
     color: #30275B;
 }
 
@@ -191,13 +192,13 @@ footer{
 
 .footer-basic .column{
     padding: 12px;
-    padding-top: 15pt;
+    padding-top: 1.4rem;
 }
 
 .footer-basic .copyright{
-    padding-bottom: 20pt;
+    padding-bottom: 2rem;
     text-align:center;
-    font-size:12pt;
+    font-size:1.25rem;
     color:#30275B;
     margin-bottom: 0;
 }
