@@ -3,9 +3,17 @@ section {
     margin-left: auto;
 }
 
+p{
+    font-size: 0.9rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+
 .content h1 {
-    text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-align: left;
     width: fit-content;
@@ -41,7 +49,7 @@ section {
 }
 
 .text_its h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -58,6 +66,12 @@ section {
     color: #30275B;
 }
 
+.ro1 {
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .col1 {
     column-gap: 1.5rem;
     display: flex;
@@ -70,5 +84,35 @@ section {
 }
 
 .col1 p{
-    font-weight: 500;
+    font-weight: 400;
+}
+.ro2 {
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.col2 p{
+    font-weight: 400;
+}
+
+.col2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.col2 {
+    column-gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 4pt;
+    padding: 1rem 1rem;
+    border-color: #30275B;
+    margin-bottom: 1.5rem;
+    background-color: #D8D4ED;
+}
+
+.col2:hover{
+    background-color: #c3bedd;
 }
