@@ -1,0 +1,41 @@
+.rmoo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.hip{
+    color: #30275B;
+}
+
+.hip h2{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.hip p{
+    font-size: 1.5rem;
+}
+
+.ro3 {
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hip{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.5rem;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+}
+
+.rmoo .ro3{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
