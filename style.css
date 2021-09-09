@@ -9,6 +9,7 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    
 }
 
 html{
@@ -193,12 +194,12 @@ footer{
 }
 
 .footer-basic .column{
-    padding: 12px;
-    padding-top: 1.4rem;
+    padding-right: 0.8rem;
+    padding-top: 1rem;
 }
 
 .footer-basic .copyright{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     text-align:center;
     font-size:1.25rem;
     color:#30275B;
