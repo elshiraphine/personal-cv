@@ -35,6 +35,7 @@
 
 .ic{
     display: flex;
+    margin-top: 2rem;
     padding-top: 1rem;
     padding-right: 2rem;
 }
@@ -45,4 +46,44 @@
     margin-right: auto;
     margin-bottom: auto;
     width: 80vh;
+}
+
+.formc {
+    background-color: #c3bedd;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+.form1 {
+    margin-bottom: 0.75rem;
+}
+
+.form1 .f1 label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: large;
+    font-weight: 100;
+    color: black;
+}
+
+.f1 input, .f1 textarea{
+    width: 40rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: #30275B;
+    border-width: 1px;
+    background-color: #D8D4ED;
+}
+
+.formc button{
+    display:block;
+    height: 3rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius:0.5rem;
+    background-color: #30275B;
+    color: white;
+    border: 0ch;
+    cursor: pointer;
 }
