@@ -1,0 +1,27 @@
+{
+  "name": "personal-cv",
+  "version": "1.0.0",
+  "description": "First commit pada 8 September 2021. </br>\r Ditulis menggunakan HTML dan CSS. Segera mungkin akan dibuat lebih responsive dengan JavaScript. </br>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaaiapouf/personal-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaaiapouf/personal-cv/issues"
+  },
+  "homepage": "https://github.com/shaaiapouf/personal-cv#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "query-string": "^7.1.1",
+    "querystring": "^0.2.1"
+  }
+}
