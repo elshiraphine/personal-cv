@@ -1,10 +1,11 @@
 {
   "name": "personal-cv",
   "version": "1.0.0",
+  "type": "module",
   "description": "First commit pada 8 September 2021. </br>\r Ditulis menggunakan HTML dan CSS. Segera mungkin akan dibuat lebih responsive dengan JavaScript. </br>",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon app.js localhost 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
