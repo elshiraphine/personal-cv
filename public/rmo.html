@@ -34,19 +34,19 @@
                 <p>I’m so open for any critics and advise as it can help me solve any obtacles that i didn’t even notice at the first sight.</p>
             </div>
             <div class="formc">
-                <form>
+                <form method="post" action="/rmo">
                     <div class="form1">
                         <div class="f1">
                             <label for="name">Your name</label>
-                            <input type="text" id="name" required>
+                            <input type="text" name="name" required>
                         </div>
                         <div class="f1">
                             <label for="email">Your email</label>
-                            <input type="email" id:"email" placeholder="john@example.com" required>
+                            <input type="email" name="email" placeholder="john@example.com" required>
                         </div>
                         <div class="f1">
                             <label for="mes" id="mes">Your message</label>
-                            <textarea name="mes" id="mes" rows="4" placeholder="Leave a comment..." required></textarea>
+                            <textarea name="mes" name="mes" rows="4" placeholder="Leave a comment..." required></textarea>
                         </div>
                     </div>
                     <button type="submit" >Submit</button>
